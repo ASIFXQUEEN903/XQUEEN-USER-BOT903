@@ -1,0 +1,64 @@
+{
+  "name": "XQUEENXUSERBPT2.0",
+  "description": "XQUEENXUSERBOT is an advanced & powerful multi-featured Telegram userbot.",
+  "logo": "https://files.catbox.moe/lezquk.jpg",
+  "keywords": [
+    "SHUKLAUSERBOT",
+    "telegram-userbot",
+    "telegram-music-bot",
+    "telegram-video-bot"
+  ],
+  "repository": "https://github.com/ASIFXQUEEN/XQUEEN-UESR-BOT-903",
+  "env": {
+    "API_ID": {
+      "description": "Enter your api id here.",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Enter your api hash here.",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Enter your bot token here",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
+      "required": true
+    },
+    "OWNER_USERNAME": {
+      "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Enter your pyrogram v1/v2 string session here.",
+      "required": true
+    },
+    "MONGO_DB_URL": {
+      "description": "Enter your mongodb url here.",
+      "required": true
+    },
+    "LOG_GROUP_ID": {
+      "description": "Enter your private log group id here.",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "Basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ]
+}
