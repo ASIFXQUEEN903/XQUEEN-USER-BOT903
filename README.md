@@ -11,7 +11,7 @@
 > The easy way to host this bot, deploy to heroku
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ASIFXQUEEN/XQUEEN-UESR-BOT-903)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ASIFXQUEEN903/XQUEEN-USER-BOT903)
 
 ## 🖇 Generating Pyrogram String Session
 
