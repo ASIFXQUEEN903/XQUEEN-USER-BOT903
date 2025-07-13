@@ -5,7 +5,6 @@ tgcrypto==1.2.5
 telegraph==2.2.0
 pillow==9.2.0
 Unidecode
-git+https://github.com/badmunda98/py-trans.git
 git+https://github.com/badmunda98/pyrofork
 aiohttp>=3.9.3
 gtts
