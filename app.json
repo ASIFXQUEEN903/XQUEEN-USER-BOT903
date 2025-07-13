@@ -8,7 +8,7 @@
     "telegram-music-bot",
     "telegram-video-bot"
   ],
-  "repository": "https://github.com/ASIFXQUEEN/XQUEEN-UESR-BOT-903",
+  "repository": "https://github.com/ASIFXQUEEN903/XQUEEN-USER-BOT903",
   "env": {
     "API_ID": {
       "description": "Enter your api id here.",
